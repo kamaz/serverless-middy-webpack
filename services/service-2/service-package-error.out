@@ -1,0 +1,488 @@
+yarn run v1.22.5
+$ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/.bin/sls package
+Serverless: Bundling with Webpack...
+request ./handler.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
+request @middy/core context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
+request @middy/http-json-body-parser context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
+request @middy/http-error-handler context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
+request @middy/validator context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
+request http-errors context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+request ajv context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+request assert context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+request ./isPromise context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core
+request once context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core
+request http-errors context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-json-body-parser
+request content-type context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-json-body-parser
+request wrappy context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/once
+request ./compile context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/resolve context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./cache context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/schema_obj context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request fast-json-stable-stringify context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/formats context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/rules context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./data context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/async context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./keyword context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./compile/error_classes context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./refs/data.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./refs/json-schema-draft-07.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request depd context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors
+request setprototypeof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors
+request statuses context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors
+request inherits context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors
+request toidentifier context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors
+request ./ajv-errors/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/LICENSE context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/lib/dot/errorMessage.jst context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/lib/dotjs/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/lib/dotjs/errorMessage context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/lib/dotjs/errorMessage.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/package context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-errors/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/LICENSE context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ar context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ar/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ar/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ar/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/cz context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/cz/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/cz/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/cz/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/de context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/de/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/de/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/de/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/en context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/en/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/en/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/en/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/es context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/es/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/es/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/es/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/fr context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/fr/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/fr/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/fr/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/hu context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/hu/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/hu/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/hu/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/id context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/id/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/id/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/id/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/it context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/it/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/it/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/it/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ja context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ja/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ja/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ja/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ko context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ko/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ko/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ko/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/localize.jst context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nb context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nb/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nb/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nb/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nl context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nl/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nl/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/nl/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pl context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pl/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pl/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pl/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pt-BR context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pt-BR/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pt-BR/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/pt-BR/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request uri-js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request json-schema-traverse context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./schema_obj context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request fast-deep-equal context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./ajv-keywords/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ../dotjs context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./ajv-keywords/package context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request fast-deep-equal context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./error_classes context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./ucs2length context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./dotjs/custom context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./resolve context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./definition_schema context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./ajv-keywords/keywords/uniqueItemProperties.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/uniqueItemProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/typeof.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/typeof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/transform.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/transform context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/switch.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./lib/dotjs/errorMessage context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors
+request ./ajv-keywords/keywords/switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/select.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/select context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/regexp.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/regexp context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/range.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/range context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/prohibited.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/prohibited context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/patternRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/oneRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/oneRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/instanceof.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/instanceof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/formatMinimum.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/formatMinimum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./en context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./zh-TW context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./zh context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./th context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./sv context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./sk context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./ru context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./pt-BR context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./pl context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./nl context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./nb context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./ja context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./it context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./hu context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./fr context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./es context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./de context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./cz context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./ar context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+request ./ajv-keywords/keywords/formatMaximum.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/formatMaximum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dynamicDefaults.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dynamicDefaults context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/switch.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/patternRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/_formatLimit.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dotjs/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dot/switch.jst context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dot/patternRequired.jst context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/dot/_formatLimit.jst context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/deepRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/deepRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/deepProperties.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/deepProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/anyRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/anyRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/allRequired.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/allRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/_util.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/_formatLimit.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/keywords context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./resolve context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request fast-deep-equal context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ../dotjs/validate context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request fast-json-stable-stringify context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./error_classes context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+request ./ajv-keywords/ajv-keywords.d.ts context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/LICENSE context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/package context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh-TW/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh-TW/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh-TW/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh-TW context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/zh context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/th/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/th/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/th/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/th context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sv/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sv/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sv/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sv context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sk/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sk/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sk/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/sk context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ru/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ru/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ru/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-i18n/localize/ru context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./dotjs/switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./refs/json-schema-draft-07.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
+request ./dotjs/patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./instanceof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./range context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./regexp context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./typeof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./dynamicDefaults context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./allRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./anyRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./oneRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./prohibited context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./uniqueItemProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./deepProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./transform context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./select context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./formatMaximum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
+request ./inherits_browser.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
+request ./formatMinimum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./deepRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./dotjs/_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./keywords context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords
+request ./codes.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/statuses
+request ./lib/compat context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd
+request path context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd
+request ./ref context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./allOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./anyOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./comment context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./const context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./contains context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./dependencies context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./enum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./format context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./if context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./items context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./_limit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./_limitItems context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./_limitLength context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./_limitProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./multipleOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./not context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./oneOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./pattern context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./properties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./propertyNames context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./required context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./uniqueItems context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request ./validate context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+request events context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
+request ./callsite-tostring context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
+request ./event-listener-count context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
+Hash: 63001567e0eace263944
+Version: webpack 4.44.2
+Time: 946ms
+Built at: 09/23/2020 11:06:58
+         Asset     Size  Chunks                          Chunk Names
+    handler.js  508 KiB       0  [emitted]        [big]  handler
+handler.js.map  101 KiB       0  [emitted] [dev]         handler
+Entrypoint handler [big] = handler.js handler.js.map
+  [0] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile/util.js 6.81 KiB {0} [built]
+ [56] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/http-errors/index.js 6.37 KiB {0} [built]
+ [66] ./handler.js 1.93 KiB {0} [built]
+ [67] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core/index.js 7.56 KiB {0} [built]
+ [68] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core/isPromise.js 120 bytes {0} [built]
+ [69] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/once/once.js 935 bytes {0} [built]
+ [71] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-json-body-parser/index.js 903 bytes {0} [built]
+ [84] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/content-type/index.js 4.7 KiB {0} [built]
+ [85] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-error-handler/index.js 650 bytes {0} [built]
+ [86] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js 3.35 KiB {0} [built]
+ [87] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/ajv.js 15.5 KiB {0} [built]
+[121] external "assert" 42 bytes {0} [built]
+[122] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator sync ^ajv\-.*$ 160 bytes {0} [optional] [built]
+[123] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/package\.json$ 250 bytes {0} [built]
+[124] /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ 5.73 KiB {0} [built]
+    + 125 hidden modules
+
+LOG from webpack.buildChunkGraph.visitModules
+<t> prepare: 0.441455ms
+<t> visiting: 0.45005ms
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors/README.md 1:0
+Module parse failed: Unexpected character '#' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> # ajv-errors
+| Custom error messages in JSON-Schema for Ajv validator
+| 
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-errors/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/README.md 1:0
+Module parse failed: Unexpected character '#' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> # ajv-i18n
+| 
+| Internationalised error messages for [Ajv](https://github.com/epoberezkin/ajv) - currently the fastest JSON-Schema validator
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-i18n/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/README.md 1:0
+Module parse failed: Unexpected character '#' (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> # ajv-keywords
+| 
+| Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors/lib/dot/errorMessage.jst 1:2
+Module parse failed: Unexpected character '#' (1:2)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> {{# def.definitions }}
+| {{# def.errors }}
+| {{# def.setupKeyword }}
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-errors/lib/dot/errorMessage.jst
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords/dot/switch.jst 1:2
+Module parse failed: Unexpected character '#' (1:2)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> {{# def.definitions }}
+| {{# def.errors }}
+| {{# def.setupKeyword }}
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/keywords/dot/switch.jst
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords/dot/patternRequired.jst 1:2
+Module parse failed: Unexpected character '#' (1:2)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> {{# def.definitions }}
+| {{# def.errors }}
+| {{# def.setupKeyword }}
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/keywords/dot/patternRequired.jst
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords/dot/_formatLimit.jst 1:2
+Module parse failed: Unexpected character '#' (1:2)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> {{# def.definitions }}
+| {{# def.errors }}
+| {{# def.setupKeyword }}
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/keywords/dot/_formatLimit.jst
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize/localize.jst 10:26
+Module parse failed: Unexpected token (10:26)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+| 
+| {{ var name = 'localize_' + it.locale.replace('-','_'); }}
+> module.exports = function {{=name}}(errors) {
+|   if (!(errors && errors.length)) return;
+|   for (var i=0; i<errors.length; i++) {
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-i18n/localize/localize.jst
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors/LICENSE 1:4
+Module parse failed: Unexpected token (1:4)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> MIT License
+| 
+| Copyright (c) 2017 Evgeny Poberezkin
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-errors/LICENSE
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/LICENSE 1:4
+Module parse failed: Unexpected token (1:4)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> The MIT License (MIT)
+| 
+| Copyright (c) 2015 Evgeny Poberezkin
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-i18n/LICENSE
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/LICENSE 1:4
+Module parse failed: Unexpected token (1:4)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> The MIT License (MIT)
+| 
+| Copyright (c) 2016 Evgeny Poberezkin
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/LICENSE
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize/README.md 1:5
+Module parse failed: Unexpected token (1:5)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> This folder contains compiled localization functions.
+| 
+| Do not edit these functions directly, edit [messages/index.js](https://github.com/epoberezkin/ajv-i18n/tree/master/messages/index.js).
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-i18n/localize/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors/lib/dotjs/README.md 1:6
+Module parse failed: Unexpected token (1:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> These files are compiled dot templates from dot folder.
+| 
+| Do NOT edit them directly, edit the templates and run `npm run build` from main ajv-keywords folder.
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-errors/lib/dotjs/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords/dotjs/README.md 1:6
+Module parse failed: Unexpected token (1:6)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> These files are compiled dot templates from dot folder.
+| 
+| Do NOT edit them directly, edit the templates and run `npm run build` from main ajv-keywords folder.
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/keywords/dotjs/README.md
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+
+WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/ajv-keywords.d.ts 1:8
+Module parse failed: Unexpected token (1:8)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> declare module 'ajv-keywords' {
+|   import { Ajv } from 'ajv';
+| 
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/ajv-keywords.d.ts
+ @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
+ @ ./handler.js
+Serverless: Packaging service...
+Done in 4.31s.

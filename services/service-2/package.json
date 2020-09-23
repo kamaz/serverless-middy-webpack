@@ -1,0 +1,23 @@
+{
+  "name": "service-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@middy/core": "^1.4.0",
+    "@middy/http-error-handler": "^1.4.0",
+    "@middy/http-event-normalizer": "^1.4.0",
+    "@middy/http-header-normalizer": "^1.4.0",
+    "@middy/http-json-body-parser": "^1.4.0",
+    "@middy/sqs-json-body-parser": "^1.4.0",
+    "@middy/ssm": "^1.4.0",
+    "@middy/validator": "^1.4.0",
+    "serverless-webpack": "^5.3.5"
+  },
+  "devDependencies": {
+    "ncjsm": "^4.1.0",
+    "serverless": "^2.1.1",
+    "serverless-webpack": "^5.3.5",
+    "webpack": "^4.44.2"
+  }
+}
