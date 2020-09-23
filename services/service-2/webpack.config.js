@@ -27,6 +27,7 @@ module.exports = {
     logging: "verbose",
     moduleTrace: true,
     errorDetails: true,
+    maxModules: 1000,
   },
   optimization: {
     minimize: false,

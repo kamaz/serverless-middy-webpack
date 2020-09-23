@@ -5,5 +5,8 @@
   "license": "MIT",
   "workspaces": [
     "services/*"
-  ]
+  ],
+  "dependencies": {
+    "ajv": "6.12.0"
+  }
 }
