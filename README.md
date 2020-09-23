@@ -15,7 +15,7 @@ yarn add @middy/core @middy/http-error-handler @middy/http-event-normalizer @mid
 yarn add -D serverless-webpack serverless webpack
 ```
 
-Reproduct steps
+Reproduce steps
 ===============
 
 ```shell
