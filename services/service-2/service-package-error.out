@@ -1,18 +1,61 @@
-yarn run v1.22.5
-$ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/.bin/sls package
+[95002:0x110008000]       31 ms: Scavenge 2.4 (3.2) -> 2.0 (4.2) MB, 0.8 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]       44 ms: Scavenge 2.6 (4.4) -> 2.3 (5.2) MB, 0.8 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]       87 ms: Scavenge 3.3 (5.2) -> 2.8 (8.0) MB, 0.6 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      115 ms: Scavenge 5.1 (8.2) -> 4.0 (8.5) MB, 0.5 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      133 ms: Scavenge 5.5 (8.5) -> 4.4 (9.2) MB, 0.5 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      157 ms: Scavenge 6.2 (9.2) -> 5.0 (14.0) MB, 0.7 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      198 ms: Scavenge 10.1 (14.8) -> 7.2 (15.8) MB, 0.7 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      241 ms: Scavenge 11.9 (16.5) -> 10.1 (17.8) MB, 1.1 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      263 ms: Scavenge 13.0 (17.8) -> 11.7 (27.8) MB, 1.6 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      347 ms: Scavenge 19.4 (28.3) -> 14.2 (30.3) MB, 1.6 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      368 ms: Mark-sweep 16.3 (30.8) -> 11.5 (31.9) MB, 1.3 / 0.2 ms  (+ 0.5 ms in 9 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 9 ms) (average mu = 1.000, current mu = 1.000) finalize incremental marking via stack guard GC in old space requested
+[95002:0x110008000]      475 ms: Scavenge 20.1 (31.9) -> 14.5 (31.9) MB, 0.9 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      556 ms: Scavenge 21.7 (32.1) -> 17.2 (49.4) MB, 1.5 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      734 ms: Scavenge 34.3 (51.5) -> 23.6 (53.3) MB, 2.4 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]      880 ms: Scavenge 38.2 (55.2) -> 29.3 (59.0) MB, 2.8 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]     1039 ms: Scavenge 44.9 (61.6) -> 36.0 (65.9) MB, 3.3 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]     1255 ms: Scavenge 51.9 (68.8) -> 42.3 (72.6) MB, 2.4 / 0.0 ms  (average mu = 1.000, current mu = 1.000) allocation failure 
+[95002:0x110008000]     1313 ms: Mark-sweep 45.5 (72.9) -> 35.7 (74.4) MB, 4.3 / 0.3 ms  (+ 2.0 ms in 25 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 30 ms) (average mu = 0.993, current mu = 0.993) finalize incremental marking via stack guard GC in old space requested
+Serverless: Using configuration:
+{
+  "webpackConfig": "webpack.config.js",
+  "includeModules": false,
+  "packager": "npm",
+  "packagerOptions": {},
+  "keepOutputDirectory": false
+}
+Serverless: Removing /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2/dist
 Serverless: Bundling with Webpack...
+[95002:0x110008000]     1421 ms: Scavenge 56.1 (78.0) -> 39.6 (76.1) MB, 0.9 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request ./handler.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
 request @middy/core context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
 request @middy/http-json-body-parser context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
 request @middy/http-error-handler context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
 request @middy/validator context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2
-request http-errors context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
-request ajv context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
-request assert context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
 request ./isPromise context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core
 request once context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/core
 request http-errors context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-json-body-parser
 request content-type context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/http-json-body-parser
+request http-errors context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+request ajv context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+request assert context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator
+[95002:0x110008000]     1564 ms: Scavenge 56.0 (76.9) -> 45.0 (78.4) MB, 1.8 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1608 ms: Scavenge 57.1 (78.6) -> 49.4 (80.4) MB, 3.1 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1643 ms: Scavenge 60.5 (80.9) -> 51.3 (82.9) MB, 3.5 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1686 ms: Scavenge 64.6 (82.9) -> 53.5 (85.4) MB, 3.0 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1727 ms: Scavenge 68.4 (86.0) -> 58.8 (88.2) MB, 2.2 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1755 ms: Scavenge 70.5 (88.5) -> 63.1 (92.7) MB, 3.0 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1782 ms: Scavenge 74.6 (92.7) -> 66.7 (96.5) MB, 2.9 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1805 ms: Scavenge 79.4 (97.2) -> 69.3 (101.2) MB, 2.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1830 ms: Scavenge 83.4 (101.2) -> 71.9 (103.2) MB, 1.5 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1861 ms: Scavenge 85.6 (103.5) -> 76.8 (106.2) MB, 2.6 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1889 ms: Scavenge 88.0 (106.4) -> 80.7 (110.9) MB, 3.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1910 ms: Scavenge 92.5 (110.9) -> 82.7 (114.4) MB, 2.2 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1937 ms: Scavenge 98.2 (116.0) -> 87.0 (118.5) MB, 2.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1968 ms: Scavenge 100.7 (118.5) -> 91.9 (121.5) MB, 3.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     1990 ms: Scavenge 103.1 (121.5) -> 92.6 (124.7) MB, 2.5 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     2021 ms: Scavenge 106.7 (124.7) -> 95.8 (126.7) MB, 1.8 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     2051 ms: Scavenge 108.7 (126.7) -> 97.9 (129.5) MB, 2.1 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request wrappy context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/once
 request ./compile context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
 request ./compile/resolve context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
@@ -121,6 +164,7 @@ request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_mod
 request ./schema_obj context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request fast-deep-equal context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
+[95002:0x110008000]     2132 ms: Scavenge 111.9 (129.5) -> 100.9 (132.5) MB, 2.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request ./ajv-keywords/package.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ../dotjs context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
@@ -139,9 +183,9 @@ request ./ajv-keywords/keywords/typeof context /Users/kamilzuzda/Projects/Cabiri
 request ./ajv-keywords/keywords/transform.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/transform context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/switch.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
-request ./lib/dotjs/errorMessage context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors
 request ./ajv-keywords/keywords/switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/select.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./lib/dotjs/errorMessage context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors
 request ./ajv-keywords/keywords/select context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/regexp.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/regexp context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
@@ -160,6 +204,7 @@ request ./ajv-keywords/keywords/index context /Users/kamilzuzda/Projects/Cabiri/
 request ./ajv-keywords/keywords/formatMinimum.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/keywords/formatMinimum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./en context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
+[95002:0x110008000]     2210 ms: Scavenge 114.6 (132.7) -> 103.4 (135.0) MB, 2.8 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request ./zh-TW context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
 request ./zh context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
 request ./th context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-i18n/localize
@@ -208,13 +253,13 @@ request ./ajv-keywords/keywords/ context /Users/kamilzuzda/Projects/Cabiri/repo/
 request ./ajv-keywords/keywords context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/index.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/index context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
+request ./ajv-keywords/ajv-keywords.d.ts context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./resolve context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request fast-deep-equal context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request ../dotjs/validate context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request fast-json-stable-stringify context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request ./error_classes context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
 request ./util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/compile
-request ./ajv-keywords/ajv-keywords.d.ts context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/README.md context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/LICENSE context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-keywords/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
@@ -245,8 +290,11 @@ request ./ajv-i18n/localize/ru/index context /Users/kamilzuzda/Projects/Cabiri/r
 request ./ajv-i18n/localize/ru/ context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./ajv-i18n/localize/ru context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules
 request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
-request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./dotjs/switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
+request ./inherits_browser.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
+request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+[95002:0x110008000]     2260 ms: Scavenge 117.0 (135.0) -> 105.0 (137.2) MB, 2.1 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request ./refs/json-schema-draft-07.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib
 request ./dotjs/patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./instanceof context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
@@ -260,16 +308,14 @@ request ./oneRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/n
 request ./prohibited context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./uniqueItemProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./deepProperties context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./deepRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
+request ./formatMinimum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./transform context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./select context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./switch context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./patternRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./formatMaximum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
-request util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
-request ./inherits_browser.js context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/inherits
-request ./formatMinimum context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
-request ./deepRequired context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./_util context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
 request ./dotjs/_formatLimit context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-keywords/keywords
@@ -277,6 +323,7 @@ request ./keywords context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node
 request ./codes.json context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/statuses
 request ./lib/compat context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd
 request path context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd
+[95002:0x110008000]     2318 ms: Scavenge 119.3 (137.2) -> 106.4 (139.0) MB, 2.3 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request ./ref context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
 request ./allOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
 request ./anyOf context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
@@ -301,13 +348,17 @@ request ./propertyNames context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo
 request ./required context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
 request ./uniqueItems context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
 request ./validate context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv/lib/dotjs
+[95002:0x110008000]     2365 ms: Scavenge 121.2 (139.2) -> 107.5 (140.7) MB, 1.8 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 request events context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
 request ./callsite-tostring context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
 request ./event-listener-count context /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/depd/lib/compat
+[95002:0x110008000]     2413 ms: Scavenge 122.9 (140.7) -> 110.6 (142.0) MB, 2.0 / 0.1 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     2430 ms: Scavenge 123.8 (142.0) -> 113.9 (144.2) MB, 2.9 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
+[95002:0x110008000]     2451 ms: Scavenge 126.2 (144.2) -> 116.4 (147.7) MB, 3.6 / 0.0 ms  (average mu = 0.993, current mu = 0.993) allocation failure 
 Hash: 63001567e0eace263944
 Version: webpack 4.44.2
-Time: 946ms
-Built at: 09/23/2020 11:06:58
+Time: 1009ms
+Built at: 09/23/2020 11:20:40
          Asset     Size  Chunks                          Chunk Names
     handler.js  508 KiB       0  [emitted]        [big]  handler
 handler.js.map  101 KiB       0  [emitted] [dev]         handler
@@ -330,8 +381,8 @@ Entrypoint handler [big] = handler.js handler.js.map
     + 125 hidden modules
 
 LOG from webpack.buildChunkGraph.visitModules
-<t> prepare: 0.441455ms
-<t> visiting: 0.45005ms
+<t> prepare: 0.429929ms
+<t> visiting: 0.447325ms
 
 WARNING in /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/ajv-errors/README.md 1:0
 Module parse failed: Unexpected character '#' (1:0)
@@ -484,5 +535,6 @@ You may need an appropriate loader to handle this file type, currently no loader
  @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules sync ^\.\/ajv\-.*\/.*$ ./ajv-keywords/ajv-keywords.d.ts
  @ /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/node_modules/@middy/validator/index.js
  @ ./handler.js
+Serverless: Zip service: /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2/dist/service [22 ms]
 Serverless: Packaging service...
-Done in 4.31s.
+Serverless: Remove /Users/kamilzuzda/Projects/Cabiri/repo/test-repo/services/service-2/dist
